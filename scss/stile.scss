@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './header' ,'./main.scss' ,'./footer.scss';
+$orange-color:#FF9900;
+@mixin text_montserrat($var1,$var2,$var3,$var4){
+    font-size: $var1;
+    font-weight: $var2;
+    line-height: $var3;
+    color: $var4;
+    font-family: "Montserrat", sans-serif;
+}
+@mixin button($var1,$var2,$var3,$var4,$var5,$var6,$var7,$var8){
+    background-color: $var1;
+    border: $var2 $var3 $var4;
+    border-radius: $var5;
+    width: $var6;
+    height: $var7;
+    padding-top: $var8;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: o auto;
+}
+.flex{
+    display: flex;
+}
